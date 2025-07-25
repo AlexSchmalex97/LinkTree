@@ -10,10 +10,11 @@ body{
   text-align:center;
 }
 
-body > * {
+.container {
   background-color: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   padding: 10px;
+  margin-bottom: 20px; /* Adds spacing between sections */
 }
 
 h2{
