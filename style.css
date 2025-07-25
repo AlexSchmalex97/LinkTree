@@ -71,3 +71,7 @@ img:hover{
   background-color: pink;
   color: maroon;
 }
+
+.recent-project {
+  margin-top: 40px; /* Adjust the space here */
+}
