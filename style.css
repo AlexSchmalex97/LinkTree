@@ -22,17 +22,21 @@ h2{
 }
 
 a {
+  /* current styles */
   background-color: white;
   font-size: 20px;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  display: inline-block; /* Use inline-block to ensure buttons don't take full width */
+  display: inline-block;
   color: slateblue;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
-  min-width: 150px; /* Set a minimum width if you prefer uniform button sizes */
+  min-width: 150px;
+  /* 👇 Add this line if it's not already here */
+  text-decoration: none;
 }
+
 
 a:hover {
   background-color: pink;
